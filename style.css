@@ -15,9 +15,6 @@ header {
 position: sticky;
 top: 0;
 background: var(--bg);
-
-Portfolio Build · Follow along · page 5
-
 border-bottom: 1px solid #e5e7eb;
 }
 nav {
@@ -52,3 +49,4 @@ h2 { margin-bottom: 1rem; color: var(--accent); }
 .project {
 padding: 1rem;
 border: 1px solid #e5e7eb;
+}
