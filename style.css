@@ -1,8 +1,8 @@
 :root {
---accent: hsl(10, 79%, 36%);
+--accent: hsl(10, 79%, 55%);
 --ink: #ffffff;
---muted: #b4bdd0;
---bg: #111111;
+--muted: #ffffff;
+--bg: #121212;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -50,4 +50,3 @@ h2 { margin-bottom: 1rem; color: var(--accent); }
 padding: 1rem;
 border: 1px solid #e5e7eb;
 }
-s
