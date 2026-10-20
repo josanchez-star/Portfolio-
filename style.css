@@ -77,3 +77,22 @@ h2 {
     padding: 1rem;
     border: 1px solid #e5e7eb;
 }
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin-top: 0.75rem;
+}
+.tags li {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+.role {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
