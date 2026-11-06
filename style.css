@@ -105,3 +105,51 @@ h2 {
     display: block;
     margin: 0 auto 1.5rem;
 }
+
+/* Fonts */
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+nav a {
+    font-family: 'Shippori Mincho', serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+}
+
+/* Dragon side art (traditional artwork, The Met, 53.101.81) */
+header {
+    z-index: 10;
+}
+.side-art {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: calc((100vw - 760px) / 2);
+    object-fit: cover;
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: -1;
+}
+.side-left {
+    left: 0;
+    object-position: 60% center;
+    -webkit-mask-image: linear-gradient(to right, #000 75%, transparent);
+    mask-image: linear-gradient(to right, #000 75%, transparent);
+}
+.side-right {
+    right: 0;
+    object-position: 40% center;
+    -webkit-mask-image: linear-gradient(to left, #000 75%, transparent);
+    mask-image: linear-gradient(to left, #000 75%, transparent);
+}
+@media (max-width: 1000px) {
+    .side-art {
+        display: none;
+    }
+}
