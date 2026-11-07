@@ -1,7 +1,7 @@
 :root {
-    --accent: hsl(10, 79%, 55%);
-    --ink: #ffffff;
-    --muted: #ffffff;
+    --accent: #5FD3C6;
+    --ink: #e6e6e6;
+    --muted: #c4c4c4;
     --bg: #121212;
 }
 
@@ -183,7 +183,7 @@ a {
 .contact-link:hover,
 .contact-link:focus-visible {
     border-color: var(--accent);
-    background: #221815;
+    background: #152321;
 }
 .contact-link::after {
     content: "\2192";
