@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css?v=8">
 </head>
 
 <body>
@@ -41,6 +41,40 @@
                 user-focused software.
             </p>
 
+        </section>
+        <section id="beyond">
+            <h2>Beyond the Code</h2>
+            <div class="photo-grid">
+                <figure>
+                    <img src="images/beyond/tepozteco.jpg" alt="John sitting at the summit of El Tepozteco overlooking Tepoztlán, Mexico" loading="lazy">
+                    <figcaption><strong>El Tepozteco, Mexico</strong>Hiked two hours to the ancient Aztec pyramid at the summit during a family trip to connect with my roots.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/beyond/networking.jpg" alt="John talking with a guest at an i.c.stars networking event" loading="lazy">
+                    <figcaption><strong>i.c.stars Networking Event</strong>Discussing how technology can help make communities safer for everyone.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/beyond/garden.jpg" alt="John's gloved hand holding a large red hibiscus bloom" loading="lazy">
+                    <figcaption><strong>Growing for the Neighborhood</strong>I help care for a garden of flowers, fruits and vegetables, and we share the harvest with neighbors.</figcaption>
+                </figure>
+                <figure>
+                    <button type="button" class="gallery-open" data-gallery="animals" aria-label="Open animal care photo gallery, 8 photos">
+                        <img src="images/beyond/animals-collage.jpg" alt="Collage of dogs, puppies and leopard geckos John has cared for" loading="lazy">
+                        <span class="gallery-count">8 photos</span>
+                    </button>
+                    <figcaption><strong>Animal Care &amp; Training</strong>I've cared for and trained dogs, cats, guinea pigs, and reptiles like leopard geckos and uromastyx, keeping the right diet, habitat and routine for each. Click to see more.</figcaption>
+                    <div class="gallery-items" id="gallery-animals" hidden>
+                        <a href="images/beyond/animals/beach.jpg" data-caption="At the beach with a Pomeranian I care for"></a>
+                        <a href="images/beyond/animals/samoyed-puppy.jpg" data-caption="Samoyed puppy"></a>
+                        <a href="images/beyond/animals/gecko-2.jpg" data-caption="Leopard gecko in a habitat I set up with proper heat, hides and substrate"></a>
+                        <a href="images/beyond/animals/gecko-1.jpg" data-caption="Leopard gecko exploring its enclosure"></a>
+                        <a href="images/beyond/animals/pups-yard.jpg" data-caption="Two puppies during outdoor training"></a>
+                        <a href="images/beyond/animals/dogs-resting.jpg" data-caption="A German Shepherd and a spaniel puppy resting together"></a>
+                        <a href="images/beyond/animals/samoyed.jpg" data-caption="Grown Samoyed"></a>
+                        <a href="images/beyond/animals/sleepy.jpg" data-caption="A small dog napping after a long day"></a>
+                    </div>
+                </figure>
+            </div>
         </section>
         <section id="skills">
             <h2>Skills</h2>
@@ -83,6 +117,16 @@
     <footer>
         <p>&copy; 2026 John Sanchez</p>
     </footer>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo gallery" hidden>
+        <button type="button" class="lb-close" aria-label="Close gallery">&times;</button>
+        <button type="button" class="lb-prev" aria-label="Previous photo">&#8249;</button>
+        <figure>
+            <img src="" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <button type="button" class="lb-next" aria-label="Next photo">&#8250;</button>
+    </div>
+    <script src="gallery.js"></script>
 </body>
 
 </html>
