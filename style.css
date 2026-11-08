@@ -287,3 +287,20 @@ footer {
 #about p + p {
     margin-top: 1rem;
 }
+
+/* Project highlights and resume button */
+.highlights {
+    margin: 0.75rem 0 0 1.25rem;
+}
+.highlights li {
+    margin-bottom: 0.35rem;
+}
+.resume-button {
+    justify-content: flex-start;
+}
+
+.skill-group {
+    font-size: 1rem;
+    color: var(--ink);
+    margin: 1.25rem 0 0.5rem;
+}
