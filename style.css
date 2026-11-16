@@ -427,3 +427,49 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* My i.c.stars Journey page */
+nav {
+    flex-wrap: wrap;
+}
+.journey-toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin-top: 1.25rem;
+}
+.journey-toc a {
+    display: inline-block;
+    padding: 0.35rem 0.9rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.journey-toc a:hover,
+.journey-toc a:focus-visible {
+    background: #152321;
+}
+.reflection {
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    background: #1b1b1b;
+}
+.reflection h3 {
+    color: var(--accent);
+    margin-bottom: 0.6rem;
+}
+.reflection p + p {
+    margin-top: 0.9rem;
+}
+.coming-soon {
+    color: var(--muted);
+    font-style: italic;
+}
+section[id] {
+    scroll-margin-top: 5rem;
+}
