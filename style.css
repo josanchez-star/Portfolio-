@@ -473,3 +473,12 @@ nav {
 section[id] {
     scroll-margin-top: 5rem;
 }
+
+.reflection code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9em;
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    background: #121212;
+    color: var(--accent);
+}
