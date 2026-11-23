@@ -8,10 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=10">
+    <link rel="stylesheet" href="style.css?v=12">
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <img src="dragon-left.png" alt="" class="side-art side-left" aria-hidden="true">
     <img src="dragon-right.png" alt="" class="side-art side-right" aria-hidden="true">
     <header>
@@ -23,7 +24,7 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <main>
+    <main id="main" tabindex="-1">
         <section id="projects">
             <h2>Projects</h2>
             <article class="project">
@@ -66,6 +67,7 @@
     <footer>
         <p>&copy; 2026 John Sanchez</p>
     </footer>
+    <script src="read-aloud.js"></script>
 </body>
 
 </html>
